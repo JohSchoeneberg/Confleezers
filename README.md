@@ -8,9 +8,4 @@ Code repository related to the Confleezers.
 # FAQ:
 What is a Confleezers:
 
-The Confleezers is a Confocal Microscope combined with an Optical Tweezer, developed and constructed at UC Berkeley in 2017 by Johannes Schöneberg, Shannon Yan and Il-Hyung Lee.
-
-
-
-
-
+The Confleezers is a Confocal Microscope combined with an Optical Tweezer, developed and constructed at UC Berkeley in 2017 by Johannes Sch√∂neberg, Shannon Yan and Il-Hyung Lee.
