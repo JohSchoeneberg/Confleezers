@@ -3,3 +3,6 @@ confleezers_data_analysis/_science_v1_analysis/
 output
 output/tube__calculate_tube_vector/
 output2
+output3
+publication_specific
+modules/__pycache__
