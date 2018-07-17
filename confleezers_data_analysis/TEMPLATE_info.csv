@@ -1,0 +1,71 @@
+input_data_folder, ./
+output_data_folder, ./
+
+vesicleID_of_that_day, NONE eg: 7
+
+movie_originalFilename, NONE eg: v7_OH_MY_GOOOOODDDD!!!! Movie 001.nd2
+movie_dataShareFilename, NONE eg: 2018-06-05_raw_movie.nd2
+movie_startTime, NONE eg: 2018-06-05 13:40:19
+movie_startTime_difference_fftime_seconds, NONE eg: 128
+movie_startTime_difference_UVstart_seconds, NONE eg: -67
+movie_crop_xStart, NONE eg: 220
+movie_crop_yStart, NONE eg: 146
+movie_crop_xwidth, NONE eg: 176
+movie_crop_yheight, NONE eg: 298
+
+
+forceFile_raw_originalFilename, NONE eg: measurement__149.lvm 
+forceFile_raw_dataShareFilename, NONE eg: forceFile_raw.lvm
+forceFile, NONE eg: forceFile.csv
+forceFile_plot, NONE eg: forceFile.png
+forceFile_alpha_y, NONE eg: -1519
+forceFile_kappa_y, NONE eg: 0.1992
+forceFile_startTime, NONE eg: 2018-06-05 13:38:11
+
+ffprocessing_zoomTime0, NONE eg: 0
+ffprocessing_zoomTime1, NONE eg: 700
+ffprocessing_doFit,False
+ffprocessing_fitStart, NONE eg: 120
+ffprocessing_fitEnd, NONE eg: 150
+force_f0, NONE
+force_fmax, NONE
+force_deltaF, NONE
+
+UVstart_seconds_fftime, NONE eg: 195
+UVend_seconds_fftime, NONE eg: 495
+
+tube_break_seconds_fftime, , NONE eg: NONE eg: 620
+tube_vector_file, NONE eg: NONE eg: tube_vector.csv
+
+
+
+
+
+
+
+movie_zoomVesicle_ROI, NONE eg: 1723-0286-0336_zoomVesicle.roi
+movie_zoomVesicle_ch0, NONE eg: movie_ch0_avg20_zoomVesicle_BleachCorctd-Exp.tif
+movie_zoomVesicle_ch1, NONE eg: movie_ch1_avg20_zoomVesicle_BleachCorctd-Exp.tif
+movie_zoomVesicle_ch2, NONE eg: movie_ch2_avg20_zoomVesicle_BleachCorctd-Exp.tif
+movie_zoomVesicle_ch3, NONE eg: movie_ch3_avg20_zoomVesicle.tif
+
+
+laserPower_percent, 25
+
+experimentConditions, 2uM proteins
+
+ch0, atto488 membrane
+ch1, lumidyne550 snf7
+ch2, lumidyne650 vps4
+ch3, transmitted detector
+
+detector, resonant
+acquisition_parameters, normal; channel series; 
+acquisition_parameters_ch0, HV 30; LP 0.50
+acquisition_parameters_ch1, HV 100; LP 1.00
+acquisition_parameters_ch2, HV 120; LP 2.00
+acquisition_parameters_ch3, HV 80; LP 0.00
+framerate_per_second, 3
+time_between_frames_seconds, 0.333
+
+
