@@ -31,8 +31,20 @@ force_f0, NONE
 force_fmax, NONE
 force_deltaF, NONE
 
-UVstart_seconds_fftime, NONE eg: 195
-UVend_seconds_fftime, NONE eg: 495
+tubeVector_tubemidpointY_px, 140
+tubeVector_beadAdditionalMargin_px, 5
+tubeVector_vesicleAdditionaMargin_px, 5
+tubeVector_tubeWindoxY_px, 3
+
+UVstart_seconds_fftime, NONE eg:270
+UVstart_seconds_movietime,NONE eg:200.0
+UVstart_frames_movie,NONE eg:600
+UVend_seconds_fftime, NONE eg:580
+UVend_seconds_movietime,NONE eg:510.0
+UVend_frames_movie,NONE eg:1531
+tube_break_seconds_movietime, NONE eg:828
+
+
 
 tube_break_seconds_fftime, , NONE eg: NONE eg: 620
 tube_vector_file, NONE eg: NONE eg: tube_vector.csv
