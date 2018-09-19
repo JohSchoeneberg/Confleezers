@@ -1,56 +1,62 @@
 input_data_folder, ./
 output_data_folder, ./
 
-vesicleID_of_that_day, NONE eg: 7
-
-movie_originalFilename, NONE eg: v7_OH_MY_GOOOOODDDD!!!! Movie 001.nd2
-movie_dataShareFilename, NONE eg: 2018-06-05_raw_movie.nd2
-movie_startTime, NONE eg: 2018-06-05 13:40:19
-movie_startTime_difference_fftime_seconds, NONE eg: 128
-movie_startTime_difference_UVstart_seconds, NONE eg: -67
-movie_crop_xStart, NONE eg: 220
-movie_crop_yStart, NONE eg: 146
-movie_crop_xwidth, NONE eg: 176
-movie_crop_yheight, NONE eg: 298
+vesicleID_of_that_day, MANUAL eg: v7
+date, MANUAL eg: 2018-07-13
 
 
-forceFile_raw_originalFilename, NONE eg: measurement__149.lvm 
-forceFile_raw_dataShareFilename, NONE eg: forceFile_raw.lvm
-forceFile, NONE eg: forceFile.csv
-forceFile_plot, NONE eg: forceFile.png
-forceFile_alpha_y, NONE eg: -1519
-forceFile_kappa_y, NONE eg: 0.1992
-forceFile_startTime, NONE eg: 2018-06-05 13:38:11
+movie_originalFilename, MANUAL eg: v7_OH_MY_GOOOOODDDD!!!! Movie 001.nd2
+movie_dataShareFilename, MANUAL eg: 2018-06-05_raw_movie.nd2
+movie_startTime, PYTHON eg: 2018-06-05 13:40:19
+movie_startTime_difference_fftime_seconds, PYTHON eg: 128
+movie_startTime_difference_UVstart_seconds, PYTHON eg: -67
+movie_crop_xStart, MANUAL eg: 220
+movie_crop_yStart, MANUAL eg: 146
+movie_crop_xwidth, MANUAL eg: 176
+movie_crop_yheight, MANUAL eg: 298
 
-ffprocessing_zoomTime0, NONE eg: 0
-ffprocessing_zoomTime1, NONE eg: 700
-ffprocessing_doFit,False
-ffprocessing_fitStart, NONE eg: 120
-ffprocessing_fitEnd, NONE eg: 150
-force_f0, NONE
-force_fmax, NONE
-force_deltaF, NONE
 
-tubeVector_tubemidpointY_px, 140
+forceFile_raw_originalFilename, MANUAL eg: measurement__149.lvm 
+forceFile_raw_dataShareFilename, MANUAL eg: forceFile_raw.lvm
+forceFile_startTime, PYTHON eg: 2018-06-05 13:38:11
+
+UVstart_seconds_fftime, MANUAL eg:270
+UVstart_seconds_movietime,PYTHON eg:200.0
+UVstart_frames_movie,PYTHON eg:600
+UVend_seconds_fftime, MANUAL eg:580
+UVend_seconds_movietime,PYTHON eg:510.0
+UVend_frames_movie, PYTHON eg:1531
+
+tube_break_seconds_fftime, PYTHON eg: 620
+tube_break_seconds_movietime, PYTHON eg:828
+
+forceFile, forceFile.csv
+forceFile_plot, forceFile.png
+forceFile_alpha_y, -1519
+forceFile_kappa_y, 0.1992
+
+
+ffprocessing_zoomTime0, PYTHON eg: 0
+ffprocessing_zoomTime1, PYTHON eg: 700
+ffprocessing_doFit, False
+ffprocessing_fitStart, MANUAL eg: 120
+ffprocessing_fitEnd, MANUAL eg: 150
+force_f0_pN, PYTHON eg: 58.42
+force_fmax_pN, PYTHON eg: 64.13
+force_deltaF_pN, PYTHON eg: 5.71
+
+
+tubeVector_tubemidpointY_px, MANUAL eg: 140
 tubeVector_beadAdditionalMargin_px, 5
 tubeVector_vesicleAdditionaMargin_px, 5
 tubeVector_tubeWindoxY_px, 3
 
-UVstart_seconds_fftime, NONE eg:270
-UVstart_seconds_movietime,NONE eg:200.0
-UVstart_frames_movie,NONE eg:600
-UVend_seconds_fftime, NONE eg:580
-UVend_seconds_movietime,NONE eg:510.0
-UVend_frames_movie,NONE eg:1531
-tube_break_seconds_movietime, NONE eg:828
 
 
 
-tube_break_seconds_fftime, , NONE eg: NONE eg: 620
-tube_vector_file, NONE eg: NONE eg: tube_vector.csv
 
-
-
+tube_break_seconds_fftime, MANUAL eg: 620
+tube_vector_file, tube_vector.csv
 
 
 
@@ -60,6 +66,12 @@ movie_zoomVesicle_ch0, NONE eg: movie_ch0_avg20_zoomVesicle_BleachCorctd-Exp.tif
 movie_zoomVesicle_ch1, NONE eg: movie_ch1_avg20_zoomVesicle_BleachCorctd-Exp.tif
 movie_zoomVesicle_ch2, NONE eg: movie_ch2_avg20_zoomVesicle_BleachCorctd-Exp.tif
 movie_zoomVesicle_ch3, NONE eg: movie_ch3_avg20_zoomVesicle.tif
+
+
+tubeVector_tubemidpointY_px, NONE eg: 131
+tubeVector_beadAdditionalMargin_px, NONE eg: 3
+tubeVector_vesicleAdditionaMargin_px, NONE eg: 5
+tubeVector_tubeWindoxY_px, NONE eg: 3
 
 
 laserPower_percent, 25
